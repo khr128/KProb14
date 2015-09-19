@@ -11,8 +11,9 @@
 		AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC0A1BADE93E00570D41 /* ViewController.swift */; };
 		AE8BBC0D1BADE93E00570D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */; };
 		AE8BBC101BADE93E00570D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8BBC0E1BADE93E00570D41 /* Main.storyboard */; };
-		AE8BBC1B1BADE93E00570D41 /* KProb14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */; };
+		AE8BBC1B1BADE93E00570D41 /* KProb14RandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC1A1BADE93E00570D41 /* KProb14RandomTests.swift */; };
 		AE8BBC261BADE93E00570D41 /* KProb14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */; };
+		AE8BBC351BADEB3500570D41 /* KProb14Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC341BADEB3500570D41 /* KProb14Random.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +41,12 @@
 		AE8BBC0F1BADE93E00570D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE8BBC111BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8BBC161BADE93E00570D41 /* KProb14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KProb14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14Tests.swift; sourceTree = "<group>"; };
+		AE8BBC1A1BADE93E00570D41 /* KProb14RandomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14RandomTests.swift; sourceTree = "<group>"; };
 		AE8BBC1C1BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8BBC211BADE93E00570D41 /* KProb14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KProb14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14UITests.swift; sourceTree = "<group>"; };
 		AE8BBC271BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BBC341BADEB3500570D41 /* KProb14Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProb14Random.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		AE8BBC071BADE93E00570D41 /* KProb14 */ = {
 			isa = PBXGroup;
 			children = (
+				AE8BBC331BADEB1800570D41 /* Random */,
 				AE8BBC081BADE93E00570D41 /* AppDelegate.swift */,
 				AE8BBC0A1BADE93E00570D41 /* ViewController.swift */,
 				AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */,
@@ -107,7 +110,7 @@
 		AE8BBC191BADE93E00570D41 /* KProb14Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */,
+				AE8BBC1A1BADE93E00570D41 /* KProb14RandomTests.swift */,
 				AE8BBC1C1BADE93E00570D41 /* Info.plist */,
 			);
 			path = KProb14Tests;
@@ -120,6 +123,14 @@
 				AE8BBC271BADE93E00570D41 /* Info.plist */,
 			);
 			path = KProb14UITests;
+			sourceTree = "<group>";
+		};
+		AE8BBC331BADEB1800570D41 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC341BADEB3500570D41 /* KProb14Random.swift */,
+			);
+			name = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			files = (
 				AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */,
 				AE8BBC091BADE93E00570D41 /* AppDelegate.swift in Sources */,
+				AE8BBC351BADEB3500570D41 /* KProb14Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8BBC1B1BADE93E00570D41 /* KProb14Tests.swift in Sources */,
+				AE8BBC1B1BADE93E00570D41 /* KProb14RandomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
