@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8BBC091BADE93E00570D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC081BADE93E00570D41 /* AppDelegate.swift */; };
+		AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC0A1BADE93E00570D41 /* ViewController.swift */; };
+		AE8BBC0D1BADE93E00570D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */; };
+		AE8BBC101BADE93E00570D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8BBC0E1BADE93E00570D41 /* Main.storyboard */; };
+		AE8BBC1B1BADE93E00570D41 /* KProb14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */; };
+		AE8BBC261BADE93E00570D41 /* KProb14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8BBC171BADE93E00570D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8BBBFD1BADE93E00570D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8BBC041BADE93E00570D41;
+			remoteInfo = KProb14;
+		};
+		AE8BBC221BADE93E00570D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8BBBFD1BADE93E00570D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8BBC041BADE93E00570D41;
+			remoteInfo = KProb14;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE8BBC051BADE93E00570D41 /* KProb14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KProb14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BBC081BADE93E00570D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE8BBC0A1BADE93E00570D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8BBC0F1BADE93E00570D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8BBC111BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BBC161BADE93E00570D41 /* KProb14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KProb14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14Tests.swift; sourceTree = "<group>"; };
+		AE8BBC1C1BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BBC211BADE93E00570D41 /* KProb14UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KProb14UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14UITests.swift; sourceTree = "<group>"; };
+		AE8BBC271BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8BBC021BADE93E00570D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC131BADE93E00570D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC1E1BADE93E00570D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8BBBFC1BADE93E00570D41 = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC071BADE93E00570D41 /* KProb14 */,
+				AE8BBC191BADE93E00570D41 /* KProb14Tests */,
+				AE8BBC241BADE93E00570D41 /* KProb14UITests */,
+				AE8BBC061BADE93E00570D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8BBC061BADE93E00570D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC051BADE93E00570D41 /* KProb14.app */,
+				AE8BBC161BADE93E00570D41 /* KProb14Tests.xctest */,
+				AE8BBC211BADE93E00570D41 /* KProb14UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8BBC071BADE93E00570D41 /* KProb14 */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC081BADE93E00570D41 /* AppDelegate.swift */,
+				AE8BBC0A1BADE93E00570D41 /* ViewController.swift */,
+				AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */,
+				AE8BBC0E1BADE93E00570D41 /* Main.storyboard */,
+				AE8BBC111BADE93E00570D41 /* Info.plist */,
+			);
+			path = KProb14;
+			sourceTree = "<group>";
+		};
+		AE8BBC191BADE93E00570D41 /* KProb14Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC1A1BADE93E00570D41 /* KProb14Tests.swift */,
+				AE8BBC1C1BADE93E00570D41 /* Info.plist */,
+			);
+			path = KProb14Tests;
+			sourceTree = "<group>";
+		};
+		AE8BBC241BADE93E00570D41 /* KProb14UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */,
+				AE8BBC271BADE93E00570D41 /* Info.plist */,
+			);
+			path = KProb14UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8BBC041BADE93E00570D41 /* KProb14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BBC2A1BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14" */;
+			buildPhases = (
+				AE8BBC011BADE93E00570D41 /* Sources */,
+				AE8BBC021BADE93E00570D41 /* Frameworks */,
+				AE8BBC031BADE93E00570D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KProb14;
+			productName = KProb14;
+			productReference = AE8BBC051BADE93E00570D41 /* KProb14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8BBC151BADE93E00570D41 /* KProb14Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BBC2D1BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14Tests" */;
+			buildPhases = (
+				AE8BBC121BADE93E00570D41 /* Sources */,
+				AE8BBC131BADE93E00570D41 /* Frameworks */,
+				AE8BBC141BADE93E00570D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8BBC181BADE93E00570D41 /* PBXTargetDependency */,
+			);
+			name = KProb14Tests;
+			productName = KProb14Tests;
+			productReference = AE8BBC161BADE93E00570D41 /* KProb14Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE8BBC201BADE93E00570D41 /* KProb14UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BBC301BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14UITests" */;
+			buildPhases = (
+				AE8BBC1D1BADE93E00570D41 /* Sources */,
+				AE8BBC1E1BADE93E00570D41 /* Frameworks */,
+				AE8BBC1F1BADE93E00570D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8BBC231BADE93E00570D41 /* PBXTargetDependency */,
+			);
+			name = KProb14UITests;
+			productName = KProb14UITests;
+			productReference = AE8BBC211BADE93E00570D41 /* KProb14UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8BBBFD1BADE93E00570D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = khr;
+				TargetAttributes = {
+					AE8BBC041BADE93E00570D41 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AE8BBC151BADE93E00570D41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AE8BBC041BADE93E00570D41;
+					};
+					AE8BBC201BADE93E00570D41 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AE8BBC041BADE93E00570D41;
+					};
+				};
+			};
+			buildConfigurationList = AE8BBC001BADE93E00570D41 /* Build configuration list for PBXProject "KProb14" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8BBBFC1BADE93E00570D41;
+			productRefGroup = AE8BBC061BADE93E00570D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8BBC041BADE93E00570D41 /* KProb14 */,
+				AE8BBC151BADE93E00570D41 /* KProb14Tests */,
+				AE8BBC201BADE93E00570D41 /* KProb14UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8BBC031BADE93E00570D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BBC0D1BADE93E00570D41 /* Assets.xcassets in Resources */,
+				AE8BBC101BADE93E00570D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC141BADE93E00570D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC1F1BADE93E00570D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8BBC011BADE93E00570D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */,
+				AE8BBC091BADE93E00570D41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC121BADE93E00570D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BBC1B1BADE93E00570D41 /* KProb14Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BBC1D1BADE93E00570D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BBC261BADE93E00570D41 /* KProb14UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8BBC181BADE93E00570D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8BBC041BADE93E00570D41 /* KProb14 */;
+			targetProxy = AE8BBC171BADE93E00570D41 /* PBXContainerItemProxy */;
+		};
+		AE8BBC231BADE93E00570D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8BBC041BADE93E00570D41 /* KProb14 */;
+			targetProxy = AE8BBC221BADE93E00570D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE8BBC0E1BADE93E00570D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8BBC0F1BADE93E00570D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8BBC281BADE93E00570D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE8BBC291BADE93E00570D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE8BBC2B1BADE93E00570D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE8BBC2C1BADE93E00570D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE8BBC2E1BADE93E00570D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KProb14.app/Contents/MacOS/KProb14";
+			};
+			name = Debug;
+		};
+		AE8BBC2F1BADE93E00570D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KProb14.app/Contents/MacOS/KProb14";
+			};
+			name = Release;
+		};
+		AE8BBC311BADE93E00570D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KProb14;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE8BBC321BADE93E00570D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KProb14UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KProb14UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KProb14;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8BBC001BADE93E00570D41 /* Build configuration list for PBXProject "KProb14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BBC281BADE93E00570D41 /* Debug */,
+				AE8BBC291BADE93E00570D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8BBC2A1BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BBC2B1BADE93E00570D41 /* Debug */,
+				AE8BBC2C1BADE93E00570D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8BBC2D1BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BBC2E1BADE93E00570D41 /* Debug */,
+				AE8BBC2F1BADE93E00570D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8BBC301BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BBC311BADE93E00570D41 /* Debug */,
+				AE8BBC321BADE93E00570D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8BBBFD1BADE93E00570D41 /* Project object */;
+}
