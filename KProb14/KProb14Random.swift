@@ -25,6 +25,7 @@ class KProb14Random {
     }
 
     return shuffledArray
+    
   }
 
   static func randomMultiplet(size size: Int, outOf n: Int) -> [Int] {
@@ -47,6 +48,25 @@ class KProb14Random {
 
 
     return multiplet
+
+  }
+
+  static func removeByIndexArray(array array:[Int], indicesToRemove:[Int]) -> [Int] {
+
+    //Dedupe and sort indices
+    let indexSet =  Set<Int>(indicesToRemove)
+    let dedupedIndices = Array<Int>(indexSet)
+    var sortedIndices = dedupedIndices.sort()
+
+    let n = sortedIndices.count
+    var prunedArray = array
+
+    for i in 0..<n {
+      prunedArray.removeAtIndex(sortedIndices[i] - i)
+    }
+
+    return prunedArray
+
   }
 
 }
