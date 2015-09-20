@@ -10,14 +10,25 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-  var probability: Double = 1.23456789
+  dynamic var probability: Double = 0.0
+  dynamic var nTests: Int = 0
   var simulator:KProb14Simulator!
 
   override func viewDidLoad() {
-    super.viewDidLoad()
 
+    super.viewDidLoad()
     simulator = KProb14Simulator()
-  }
+
+    let nc = NSNotificationCenter.defaultCenter()
+    nc.addObserverForName("KPROB14_PROBABILITY_CHANGED",
+      object: nil,
+      queue: nil,
+      usingBlock: { (NSNotification note) -> Void in
+//        print("notified: \(self.simulator!.probabilityWhite)")
+        self.probability = self.simulator!.probabilityWhite
+        self.nTests = self.simulator!.nTotal
+    })
+   }
 
   override var representedObject: AnyObject? {
     didSet {
@@ -26,11 +37,19 @@ class ViewController: NSViewController {
   }
 
   @IBAction func startSimulation(sender: AnyObject) {
-    simulator.start()
+
+    if simulator.state == SimulatorState.Idle {
+      simulator.start()
+    }
+
   }
 
   @IBAction func stopSimulation(sender: AnyObject) {
-    simulator.stop()
+
+    if simulator.state == SimulatorState.Running {
+      simulator.stop()
+    }
+    
   }
 }
 

@@ -674,7 +674,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wQC-pY-lst">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wQC-pY-lst" userLabel="Probability Label">
                                 <rect key="frame" x="174" y="127" width="132" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="128" id="YfR-Wq-xt8"/>
@@ -717,9 +717,30 @@
                                     <action selector="stopSimulation:" target="XfG-lQ-9wD" id="ZZZ-tT-EOp"/>
                                 </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pcU-kX-9dF">
+                                <rect key="frame" x="174" y="102" width="132" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="9Oq-yL-62U"/>
+                                    <constraint firstAttribute="width" constant="128" id="Ght-qv-OZP"/>
+                                </constraints>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="b6Z-rc-rzN">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <string key="userLabel" base64-UTF8="YES">
+CQ
+</string>
+                                <connections>
+                                    <binding destination="XfG-lQ-9wD" name="value" keyPath="nTests" id="M2C-fW-3Q0"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="pcU-kX-9dF" firstAttribute="top" secondItem="wQC-pY-lst" secondAttribute="bottom" constant="8" id="DTk-Yj-IQL"/>
                             <constraint firstAttribute="bottom" secondItem="ULJ-bn-W1c" secondAttribute="bottom" constant="20" id="LZT-i8-KFp"/>
+                            <constraint firstItem="pcU-kX-9dF" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="PNv-iB-hJ5"/>
                             <constraint firstItem="ePY-ze-46x" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="trailing" multiplier="0.25" id="QtX-5K-eLj"/>
                             <constraint firstAttribute="bottom" secondItem="ePY-ze-46x" secondAttribute="bottom" constant="20" id="U83-vd-Qkk"/>
                             <constraint firstItem="wQC-pY-lst" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="WL2-GF-b8p"/>

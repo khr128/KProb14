@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE034BD51BB71C8E009B675D /* KProb14SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE034BD41BB71C8E009B675D /* KProb14SimulatorTests.swift */; settings = {ASSET_TAGS = (); }; };
 		AE8BBC091BADE93E00570D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC081BADE93E00570D41 /* AppDelegate.swift */; };
 		AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC0A1BADE93E00570D41 /* ViewController.swift */; };
 		AE8BBC0D1BADE93E00570D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8BBC0C1BADE93E00570D41 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE034BD41BB71C8E009B675D /* KProb14SimulatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProb14SimulatorTests.swift; sourceTree = "<group>"; };
 		AE8BBC051BADE93E00570D41 /* KProb14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KProb14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8BBC081BADE93E00570D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8BBC0A1BADE93E00570D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				AE8BBC1A1BADE93E00570D41 /* KProb14RandomTests.swift */,
 				AE8BBC1C1BADE93E00570D41 /* Info.plist */,
+				AE034BD41BB71C8E009B675D /* KProb14SimulatorTests.swift */,
 			);
 			path = KProb14Tests;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE034BD51BB71C8E009B675D /* KProb14SimulatorTests.swift in Sources */,
 				AE8BBC1B1BADE93E00570D41 /* KProb14RandomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
