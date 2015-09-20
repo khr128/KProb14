@@ -10,10 +10,13 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+  var probability: Double = 1.23456789
+  var simulator:KProb14Simulator!
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    // Do any additional setup after loading the view.
+    simulator = KProb14Simulator()
   }
 
   override var representedObject: AnyObject? {
@@ -22,6 +25,12 @@ class ViewController: NSViewController {
     }
   }
 
+  @IBAction func startSimulation(sender: AnyObject) {
+    simulator.start()
+  }
 
+  @IBAction func stopSimulation(sender: AnyObject) {
+    simulator.stop()
+  }
 }
 

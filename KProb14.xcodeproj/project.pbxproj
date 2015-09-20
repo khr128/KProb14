@@ -14,6 +14,7 @@
 		AE8BBC1B1BADE93E00570D41 /* KProb14RandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC1A1BADE93E00570D41 /* KProb14RandomTests.swift */; };
 		AE8BBC261BADE93E00570D41 /* KProb14UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */; };
 		AE8BBC351BADEB3500570D41 /* KProb14Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BBC341BADEB3500570D41 /* KProb14Random.swift */; settings = {ASSET_TAGS = (); }; };
+		AEA5FC821BAF310500B25C56 /* KProb14Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5FC811BAF310500B25C56 /* KProb14Simulator.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AE8BBC251BADE93E00570D41 /* KProb14UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KProb14UITests.swift; sourceTree = "<group>"; };
 		AE8BBC271BADE93E00570D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8BBC341BADEB3500570D41 /* KProb14Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProb14Random.swift; sourceTree = "<group>"; };
+		AEA5FC811BAF310500B25C56 /* KProb14Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KProb14Simulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AE8BBC071BADE93E00570D41 /* KProb14 */ = {
 			isa = PBXGroup;
 			children = (
+				AEA5FC801BAF30ED00B25C56 /* Simulator */,
 				AE8BBC331BADEB1800570D41 /* Random */,
 				AE8BBC081BADE93E00570D41 /* AppDelegate.swift */,
 				AE8BBC0A1BADE93E00570D41 /* ViewController.swift */,
@@ -131,6 +134,14 @@
 				AE8BBC341BADEB3500570D41 /* KProb14Random.swift */,
 			);
 			name = Random;
+			sourceTree = "<group>";
+		};
+		AEA5FC801BAF30ED00B25C56 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5FC811BAF310500B25C56 /* KProb14Simulator.swift */,
+			);
+			name = Simulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA5FC821BAF310500B25C56 /* KProb14Simulator.swift in Sources */,
 				AE8BBC0B1BADE93E00570D41 /* ViewController.swift in Sources */,
 				AE8BBC091BADE93E00570D41 /* AppDelegate.swift in Sources */,
 				AE8BBC351BADEB3500570D41 /* KProb14Random.swift in Sources */,
@@ -486,6 +498,7 @@
 				AE8BBC2C1BADE93E00570D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE8BBC2D1BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				AE8BBC2F1BADE93E00570D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE8BBC301BADE93E00570D41 /* Build configuration list for PBXNativeTarget "KProb14UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				AE8BBC321BADE93E00570D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
